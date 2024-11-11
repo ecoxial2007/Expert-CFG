@@ -1,6 +1,6 @@
 <div align="center">
   
-# Uncertainty-Driven Expert Control: Toward Reliable Medical Visual Question Answering via Classifier-Free Guidance
+# Uncertainty-Driven Expert Control: Enhancing the Reliability of Medical Vision-Language Models
 
 </div>
 
@@ -10,19 +10,13 @@
 
 ## 🔨Setup
 
-### Requirement
-```
-conda create -n expertcfg python=3.8
-conda activate expertcfg
-pip install -r requirements.txt
-```
-
 ### 🔨Pre-trained weights
 
 #### Medical Visual Language Model:
-Our fine-tuning Phi3V-Med and Phi3.5V-Med links:
-+ Phi-3V-Med: [Huggingface](https://huggingface.co/ecoxial2007/Phi-3V-Med)
-+ Phi-3.5V-Med: [Huggingface](https://huggingface.co/ecoxial2007/Phi-3.5V-Med)
+Our fine-tuning Phi3V-Med and Phi3.5V-Med links (Remove to avoid violating double-blind):
+
++ Phi-3V-Med: [Huggingface]
++ Phi-3.5V-Med: [Huggingface]
 
 #### Medical Image & Test Encoder for RAG(optional):
 
@@ -30,7 +24,7 @@ Download BiomedCLIP and place it in `./src/backbone/BiomedCLIP`.
 
 BiomedCLIP links:
 + [Huggingface](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
-+ [Baiduyun](https://pan.baidu.com/s/1OTS2i14qAoXdZfvkkyh86Q?pwd=6666)
++ [Baiduyun]
 
 **Note**: Directly downloading weights from Huggingface might encounter network issues. To facilitate modifications, we have converted the original `.bin` file to PyTorch's `.pth`. We recommend using the Baiduyun version.
 
@@ -43,23 +37,20 @@ We test our model on:
 + [PathVQA](https://github.com/UCSD-AI4H/PathVQA)
 
 Medical Alignment and Instruction Tuning:
-+ [PubMedVision]()
-+ [Llave-Med]()
++ [PubMedVision](https://huggingface.co/datasets/FreedomIntelligence/PubMedVision)
++ [Llave-Med](https://github.com/microsoft/LLaVA-Med)
 
 
 ### Prepare BiomedCLIP Pre-extracted Image Feature
 Note: We recommend using our pre-extracted BioMedCLIP features. The original images can also be found in the links below:
 
 
-(Dropbox links Comming soon!!!!!)
-
 | Dataset  | Pre-extracted Features  & Original Images |
 |----------|------------------------------------------|
-| PEIR     | [Baiduyun, Rename zzz2zip](https://pan.baidu.com/s/1sJp_3UzjIIvOiuyMB417GQ?pwd=6666)|
-| PEIR BioMedCLIP features & keyword & GPT3.5 rewrite caption | [Baiduyun](https://pan.baidu.com/s/1pqHhrxLL-ZdgEat0wNwLmQ?pwd=6666)|
-| PathVQA  | [Baiduyun](https://pan.baidu.com/s/1b1SuDSbsNM1rVGzbx8utvg?pwd=6666)|
-| Slake    | [Baiduyun](https://pan.baidu.com/s/1mfAoi9_HZkrk7OuyQIn4-w?pwd=6666)|
-| RADVQA   | [Baiduyun](https://pan.baidu.com/s/1gBjAjq2L-iIMf0j05QsJ-w?pwd=6666)|
+| PEIR     | Remove |
+| PathVQA  | Remove |
+| Slake    | Remove |
+| RADVQA   | Remove |
 
 
 ### Demo
