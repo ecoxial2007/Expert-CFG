@@ -1,0 +1,20 @@
+[
+  {
+        "img_id": "chest_xray.jpg",
+        "question": "Is there evidence of an aortic aneurysm?",
+        "highlights": ["aortic aneurysm"],
+        "answer_type": "CLOSED",
+        "answer": "yes",
+        "top_k_captions": ["The abnormality in this image is related to the cardiovascular system. This is a chest X-ray image. There is evidence of an aortic aneurysm."]
+  },
+  {
+        "img_id": "kidney_tissue.jpg",
+        "question": "What does this image show?",
+        "highlights": ["giant cell", "fibrosis"],
+        "question_type": "what",
+        "answer": "giant cells and fibrosis",
+        "answer_id": 1742,
+        "answer_type": "OPEN",
+        "top_k_captions": ["In the image, there appears to be microscopic view of a kidney tissue sample under low magnification. Features such as giant cells and fibrosis can be observed, possibly indicating a pathological condition such as sarcoidosis affecting the urinary system."]
+  }
+]

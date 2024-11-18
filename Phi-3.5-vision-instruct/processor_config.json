@@ -1,0 +1,8 @@
+{
+  "auto_map": {
+    "AutoProcessor": "processing_phi3_v_cfg.Phi3VProcessor"
+  },
+  "processor_class": "Phi3VProcessor"
+}
+
+
