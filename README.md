@@ -25,10 +25,10 @@ Download them to the current directory separately and merge them with `Phi-3-vis
 
 
 #### Medical LoRA:
-Our fine-tuning Phi3V-Med and Phi3.5V-Med LoRA links (removed to comply with double-blind requirements):
+Our fine-tuning Phi3V-Med and Phi3.5V-Med LoRA links:
 
-+ Phi-3V-Med: [Huggingface]
-+ Phi-3.5V-Med: [Huggingface]
++ Phi-3V-Med: [Huggingface](https://huggingface.co/ecoxial2007/Phi-3V-Med)
++ Phi-3.5V-Med: [Huggingface](https://huggingface.co/ecoxial2007/Phi-3.5V-Med)
 Download them to the `./lora_weights` folder
 
 #### Demo
@@ -48,7 +48,6 @@ Download BiomedCLIP and place it in `./src/backbone/BiomedCLIP`.
 
 BiomedCLIP links:
 + [Huggingface](https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224)
-+ [Baiduyun]
 
 **Note**: Directly downloading weights from Huggingface might encounter network issues. To facilitate modifications, we have converted the original `.bin` file to PyTorch's `.pth`. We recommend using the Baiduyun version.
 
@@ -71,10 +70,11 @@ Note: We recommend using our pre-extracted BioMedCLIP features. The original ima
 
 | Dataset  | Pre-extracted Features  & Original Images |
 |----------|------------------------------------------|
-| PEIR     | Remove |
-| PathVQA  | Remove |
-| Slake    | Remove |
-| RADVQA   | Remove |
+| PEIR     | [Baiduyun, Rename zzz2zip](https://pan.baidu.com/s/1sJp_3UzjIIvOiuyMB417GQ?pwd=6666)|
+| PEIR BioMedCLIP features & keyword & GPT3.5 rewrite caption | [Baiduyun](https://pan.baidu.com/s/1pqHhrxLL-ZdgEat0wNwLmQ?pwd=6666)|
+| PathVQA  | [Baiduyun](https://pan.baidu.com/s/1b1SuDSbsNM1rVGzbx8utvg?pwd=6666)|
+| Slake    | [Baiduyun](https://pan.baidu.com/s/1mfAoi9_HZkrk7OuyQIn4-w?pwd=6666)|
+| RADVQA   | [Baiduyun](https://pan.baidu.com/s/1gBjAjq2L-iIMf0j05QsJ-w?pwd=6666)|
 
 
 
@@ -87,5 +87,12 @@ We also reference the excellent repos of [Phi-3CookBook](https://github.com/micr
 ## 📝Citation
 If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 ```
-
+@misc{liang2025uncertaintydriven,
+    title={Uncertainty-Driven Expert Control: Enhancing the Reliability of Medical Vision-Language Models},
+    author={Xiao Liang and Di Wang and Zhicheng Jiao and Ronghan Li and Pengfei Yang and Quan Wang and Tat-Seng Chua},
+    year={2025},
+    eprint={2507.09209},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ```
